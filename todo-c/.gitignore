@@ -1,1 +1,4 @@
-
+*.o
+*.exe
+todo
+a.out
