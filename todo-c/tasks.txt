@@ -1,1 +1,15 @@
 
+---
+
+## GitHub steps (quick)
+```bash
+mkdir todo-c && cd todo-c
+mkdir src
+# add files: src/main.c, README.md, .gitignore
+git init
+git add .
+git commit -m "Initial CLI to-do list in C"
+git branch -M main
+# then create repo on GitHub and add remote:
+git remote add origin <YOUR_REPO_URL>
+git push -u origin main
